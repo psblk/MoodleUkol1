@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.psblk.moodleukol1.Pokoje">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/headline1"
+        android:textSize="15dp"
+        android:text="Hotel Šumava nabízí ubytování v komfortně a útulně zařízených pokojích, plně odpovídající kvalitě ***. Většina pokojů má vlastní balkon či terasu, která skýtá překrásný výhled do malebné krajiny Šumavy. "
+        android:id="@+id/text1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/text1"
+        android:textSize="15dp"
+        android:text="Hotel Šumava nabízí ubytování v celkem 46 pokojích:\n-38 pokojů, směřujících k jihu, mají balkon s výhledem do údolí a na terasu s bazénem\n-8 pokojů, umístěných na sever, je bez balkonů (předností pokojů bez balkónu je jejich větší prostornost)"
+        android:id="@+id/text2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:textSize="15dp"
+        android:text="-K dispozici jsou pokoje různého typu – dvoulůžkové, třílůžkové, čtyřlůžkové, apartmá\n-Celková kapacita hotelu Šumava je 137 lůžek\n-V hotelu Šumava je hostům plně k dispozici prostorný výtah\n -Pokoje jsou opatřeny zámkovým systémem na chipové karty\n-Mezi naše priority patří samozřejmě také bezpečnost hostů, proto je hotel vybaven požárním alarmem a kouřovými čidly\n -Pokoje jsou plně nekuřácké, pro kouření máme vyhrazené prostory\n"
+        android:id="@+id/text3"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/text3"
+        android:id="@+id/btnstandart"
+        android:text="Standart"
+        android:onClick="onClick"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/btnstandart"
+        android:id="@+id/btndeluxe"
+        android:text="De Luxe"
+        android:onClick="onClick"/>
+
+</RelativeLayout>
+
+    </ScrollView>

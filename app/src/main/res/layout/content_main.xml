@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:showIn="@layout/app_bar_main"
+    tools:context=".MainActivity">
+
+    <TextView android:text="Vítejte v aplikaci Hotel Šumava." android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:id="@id/headline1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/headline1"
+        android:textSize="15dp"
+        android:text="Wellness a Sport Hotel Šumava***, Kašperské Hory se nachází v klidném prostředí horského lesa u Zlatého potoka v Amálině údolí, v srdci Šumavy, na hranici Národního parku a Chráněné krajinné oblasti  Šumava. Je umístěn 1,5 km od centra Kašperských Hor, na nejnavštěvovanější trase Šumavy: Sušice - Kašperské Hory - Rejštejn - Kvilda - Srní - Modrava."
+        />
+
+</RelativeLayout>

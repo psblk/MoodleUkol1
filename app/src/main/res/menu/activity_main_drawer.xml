@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navRezervace"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Rezervace" />
+        <item android:id="@+id/navSluzby"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Služby" />
+        <item android:id="@+id/navPokoje"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Pokoje" />
+        <item android:id="@+id/navOHotelu"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="O hotelu" />
+        <item android:id="@+id/navKontakt"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Kontakt" />
+    </group>
+
+</menu>

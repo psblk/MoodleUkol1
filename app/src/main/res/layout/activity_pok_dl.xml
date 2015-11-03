@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.psblk.moodleukol1.PokDL">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/headline1"
+        android:textSize="15dp"
+        android:text="Typ pokoje - Cena dospělí / Cena dítě\nApartmá DeLuxe s vířivou vanou - 1 000 Kč / 800 Kč"
+        android:id="@+id/text1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/text1"
+        android:textSize="15dp"
+        android:text="-V ceně za ubytování je zahrnuta snídaně.\n-Ceny za ubytování jsou včetně DPH.\n-V ceně je zahrnuto venkovní parkování přímo v areálu hotelu.\n-Do ceny není zahrnut rekreační poplatek (14 Kč / den za osobu 18+)\n-Ceny jsou na bázi obsazení všech lůžek v pokoji.\n-Příplatek za pokoj obsazený jednou osobou je 180 Kč / noc."
+        />
+
+</RelativeLayout>
+
+    </ScrollView>
